@@ -7,12 +7,35 @@
 }
 body {
   overflow-x: hidden;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Exo', sans-serif;
   margin: 0 auto;
 }
 img {
   width: 100%;
   height: auto;
+}
+h1 {
+  font-size: 60px;
+  font-weight: 100;
+  line-height: 75px;
+  color: #282828;
+}
+h2 {
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 500;
+  color: #282828;
+}
+h3 {
+  font-size: 22px;
+  line-height: 50px;
+  color: #282828;
+}
+p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  color: #6e6e6d;
 }
 a {
   text-decoration: none;
@@ -21,11 +44,14 @@ ul {
   margin: 0;
   padding: 0;
 }
+li {
+  list-style: none;
+}
 .wrapper {
   width: 100%;
-  max-width: 1170px;
+  max-width: 1440px;
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 0 135px;
 }
 .clearfix::after {
   display: table;
