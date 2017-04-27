@@ -21,12 +21,14 @@ h1 {
   color: #282828;
   padding: 0;
   margin: 0;
+  padding-bottom: 60px;
 }
 h2 {
   font-size: 40px;
   line-height: 50px;
   font-weight: 500;
   color: #282828;
+  padding-bottom: 50px;
 }
 h3 {
   font-size: 22px;
@@ -38,6 +40,15 @@ p {
   font-weight: 500;
   line-height: 26px;
   color: #6e6e6d;
+  padding-bottom: 40px;
+}
+.topic {
+  font-size: 16px;
+  line-height: 26px;
+  color: #ff8a8a;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  padding-bottom: 20px;
 }
 a {
   text-decoration: none;
@@ -53,7 +64,7 @@ li {
   width: 100%;
   max-width: 1440px;
   margin: 0 auto;
-  padding: 0 135px;
+  padding: 0;
 }
 .clearfix::after {
   display: table;
@@ -72,6 +83,96 @@ li {
   letter-spacing: 5px;
   text-transform: uppercase;
   border-radius: 10px;
+}
+.clients {
+  width: 100%;
+  height: 650px;
+  background: url("../img/bg-clients.jpg");
+  padding: 110px 135px 100px;
+}
+.clients p,
+.clients h3 {
+  color: #fff;
+}
+.clients__people-items,
+.clients__logo-items {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.clients__people-items {
+  margin-bottom: 60px;
+}
+.clients__people-item {
+  width: 30%;
+  text-align: center;
+}
+.clients__people-img {
+  width: 75px;
+  height: 75px;
+  background: #282828;
+  margin: 0 auto;
+}
+.description {
+  width: 100%;
+  height: 550px;
+  background: url("../img/triangle-2.png") no-repeat top left;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 100px 115px;
+}
+.description-img {
+  display: block;
+  width: 630px;
+  height: 367px;
+  margin-right: 50px;
+}
+.description__text {
+  width: 500px;
+}
+.design {
+  width: 100%;
+  height: 725px;
+  background: url("../img/triangle-1.png") no-repeat top right;
+  padding-top: 195px;
+  padding-left: 135px;
+}
+.design p,
+.design h2 {
+  width: 550px;
+}
+.red-line {
+  color: #ff8a8a;
+}
+.features {
+  padding: 130px 135px;
+  text-align: center;
+  position: relative;
+  background: #f6f5f3;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  overflow: hidden;
+}
+.features-items {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+}
+.features-item {
+  width: 30%;
+  text-align: center;
+}
+.features-item-img {
+  display: block;
+  width: 67px;
+  height: 67px;
+  margin: 0 auto 30px;
 }
 .page-header {
   width: 100%;
@@ -92,4 +193,5 @@ li {
   border-radius: 50%;
   background: #282828 url("../img/icon-play.png") no-repeat center center;
   margin: 0 auto;
+  margin-bottom: 40px;
 }
